@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Small Shopping Cart Example
+    </title>
+    <style>
+        /*div,h1{
+    display: flex; justify-content:center; align-items:center;
+}*/
+        #addProduct_btn {
+            background-color: green;
+            color: aliceblue;
+            border-color: green;
+        }
+
+        #addProduct_btn,
+        input {
+            border-radius: 5px;
+        }
+
+        .delete_product {
+            color: aliceblue;
+            background-color: rgb(255, 80, 80);
+            border: none;
+            border-radius: 5px;
+            padding: 5px;
+
+        }
+    </style>
+</head>
+
+<body>
+    <h1> Add Product</h1>
+    <div class="input_container">
+
+        <input type="text" id="product_input">
+        <button id="addProduct_btn">Add Product</button>
+    </div>
+    <div id="product_container">
+    </div>
+    <script src="ShoppinCartSmallEx.js"></script>
+</body>
+
+</html>
