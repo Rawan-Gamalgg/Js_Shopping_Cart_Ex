@@ -5,7 +5,7 @@ A beginner-friendly shopping cart implementation with:
 ✔ Clean, modern UI
 ✔ Vanilla JavaScript (no frameworks)
 
-![Shopping Cart Preview]<img src="./preview.png" alt="Preview" width="400">
+![Shopping Cart Preview]<img src="./preview.png" alt="Preview" width="800">
 
 Features ✨
 Add products with name, price, and description
