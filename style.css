@@ -1,0 +1,19 @@
+#addProduct_btn {
+    background-color: green;
+    color: aliceblue;
+    border-color: green;
+}
+
+#addProduct_btn,
+input {
+    border-radius: 5px;
+}
+
+.delete_product {
+    color: aliceblue;
+    background-color: rgb(255, 80, 80);
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+
+}
