@@ -48,7 +48,7 @@ function displayData(items) {
     product_container.innerHTML = "";
     items.forEach(function(item) {
         product_container.innerHTML += `
-            <div class="product">
+            <div class="product-item">
                 <h3>${item.name}</h3>
                 <p>Price: $${item.price}</p>
                 <p>${item.desc? item.desc : ''}</p>
