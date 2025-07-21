@@ -86,7 +86,10 @@ function addProduct() {
         input.value = "";
     }
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> e18f2163a1cad1959814b32845fa26ea300b3cde
 //Delete product
 function deleteProduct(id) {
     var index = products.map(function(product) {
