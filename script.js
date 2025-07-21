@@ -86,7 +86,7 @@ function addProduct() {
         input.value = "";
     }
 }
-
+//Delete product
 function deleteProduct(id) {
     var index = products.map(function(product) {
         return product.id;
