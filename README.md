@@ -44,7 +44,8 @@ simple-shopping-cart/
 ## javascript
 // Save to browser storage
 localStorage.setItem('products', JSON.stringify(products));
-UI:
+
+## UI:
 
 Clean white card layout
 
