@@ -65,25 +65,20 @@ function displayData(items) {
     }
     items.forEach(function (item) {
         product_container.innerHTML += `
-            <div class="product-item">
+        <div class="product-item">
+            <div class="product-info">
                 <h3>${item.name}</h3>
-                <p>Price: $${item.price.toFixed(2)}</p>
-                <p>
-                Quantity: 
+                <p>$${item.price.toFixed(2)}</p>
+            </div>
+            <div class="quantity-controls">
                 <button onclick='changeQuantity(${item.id}, -1)'>-</button>
-                ${item.quantity}
+                <span>${item.quantity}</span>
                 <button onclick='changeQuantity(${item.id}, 1)'>+</button>
-                </p>
-                 <p>Total: $${(item.price * item.quantity).toFixed(2)}</p>
-                <p>${item.desc ? item.desc : ''}</p>
-                <button class='delete_product' onclick='deleteProduct(${item.id})'>
-                Delete
-                </button>
-            </div>`;
+            </div>
+            <button class='delete_product'>Delete</button>
+        </div>`;
     });
 }
-
-
 
 // Event Handlers
 //Displays products when the page finishes loading
