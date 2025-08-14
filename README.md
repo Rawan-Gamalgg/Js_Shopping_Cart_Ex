@@ -1,7 +1,7 @@
 # Shopping Cart Application
 
 ![Shopping Cart Demo]
-###<img src="./preview2 (2).png"> *(Optional: Add a screenshot or GIF later)*
+<img src="./preview2 (2).png"> *(Optional: Add a screenshot or GIF later)*
 
 A simple, client-side shopping cart application built with HTML, CSS, and JavaScript. Products are stored in the browser's localStorage.
 
