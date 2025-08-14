@@ -1,7 +1,7 @@
 
 body {
     font-family: Arial, sans-serif;
-    max-width: 600px;
+    max-width: 650px;
     margin: 0 auto;
     padding: 20px;
     background-color: #f5f5f5;
@@ -18,22 +18,35 @@ h1 {
     margin-bottom: 20px;
 }
 
-#product_input {
-    flex-grow: 1;
+#product_name , #product_price{
+    
     padding: 8px 12px;
     border: 1px solid #ddd;
     border-radius: 4px;
     font-size: 16px;
 }
-
-#product_input:focus {
+#product_name{
+    flex-grow: 1;
+}
+#product_price{
+width: 95px;
+}
+#product_name:focus, #product_price:focus {
     outline: none;
     border-color: #4CAF50;
     box-shadow: 0 0 5px rgba(76, 175, 80, 0.3);
 }
 
+#product_quantity {
+    padding: 8px 12px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+    width: 50px; 
+    margin-right: 10px;
+}
 #addProduct_btn {
-    background-color: #4CAF50;
+    background-color: #4271d7;
     color: white;
     border: none;
     border-radius: 4px;
@@ -44,9 +57,12 @@ h1 {
 }
 
 #addProduct_btn:hover {
+    background-color: #4553a0;
+}
+.alert-success{
+    color:#0a3622;
     background-color: #45a049;
 }
-
 #product_container {
     background-color: white;
     border-radius: 8px;
@@ -63,7 +79,6 @@ h1 {
 }
 
 
-
 .delete_product {
     background-color: #ff5252;
     color: white;
@@ -76,4 +91,18 @@ h1 {
 
 .delete_product:hover {
     background-color: #ff0000;
+}
+#clearAll_btn{
+    background-color: #d32f2f;
+    margin-top: 10px; 
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#clearAll_btn:hover {
+    background-color: #b71c1c;
 }

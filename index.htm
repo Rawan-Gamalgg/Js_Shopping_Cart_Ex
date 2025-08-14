@@ -4,17 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    
     <title>Simple Shopping Cart</title>
 </head>
 <body>
     <h1>Add Product</h1>
     <div class="input_container">
-        <input type="text" id="product_input" placeholder="Enter product name...">
-        <button id="addProduct_btn">Add Product</button>
+        <input type="text" id="product_name" placeholder="Enter product name">
+        <input type="number" id="product_price" placeholder="Enter price" min="20">
+        <input type="number" id="product_quantity" placeholder="Quantity" min="1" value="1">
+        <button id="addProduct_btn">Add To Cart</button>
     </div>
     <div id="product_container">
         <!-- Products will appear here -->
     </div>
+    <div >
+    <button id="clearAll_btn"> Clear Cart</button>
+</div>
     <script src="script.js"></script>
 </body>
 
