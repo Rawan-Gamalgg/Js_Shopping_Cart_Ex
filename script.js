@@ -75,7 +75,7 @@ function displayData(items) {
                 <span>${item.quantity}</span>
                 <button onclick='changeQuantity(${item.id}, 1)'>+</button>
             </div>
-            <button class='delete_product'>Delete</button>
+            <button class='delete_product' onclick='deleteProduct(${item.id})'>Delete</button>
         </div>`;
     });
 }
